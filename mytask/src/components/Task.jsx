@@ -10,8 +10,7 @@ const Task = (props) => {
         </div>
     )
     
-}
-
+    
   {taskState.tasks.map((task) => (              
     <Task 
       title={task.title}
@@ -21,5 +20,7 @@ const Task = (props) => {
     />
   ))}
 
+
+}
 
 export default Task;
