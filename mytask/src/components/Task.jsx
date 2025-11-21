@@ -8,7 +8,17 @@ const Task = (props) =>  {
             <p className="title">{props.title}</p>
             <p>Due: {props.deadline}</p>
             <p className="description">{props.description}</p>
-          <p className={`priority ${props.priority.toLowerCase()}`}>
+          <p 
+          style={{
+            backgroundColor:
+            props.priority === "High"
+            ? "red"
+            : props.priority === "Medium"
+            ? "orange"
+            : "green",
+            padding: "0.2em",
+            borderRadius: "0.4em"
+          }}>
   {props.priority}
 </p>
 

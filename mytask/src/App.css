@@ -94,25 +94,6 @@ select{
   box-sizing: border-box;
 }
 
-.priority.low {
-  background-color: green;
-  font-weight: lighter;
-  border-radius: 4px;
-}
-
-.priority.medium {
-  background-color: orange;
-  font-weight: lighter;
-  border-radius: 4px;
-}
-
-.priority.high {
-  background-color: red;
-  font-weight: lighter;
-  border-radius: 4px;
-}
-
-
 input[type=submit] {
   width: 100%;
   background-color: #4CAF50;
